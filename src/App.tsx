@@ -2,7 +2,7 @@
 import './App.css'
 import { useState, ChangeEvent } from "react";
 import { Task } from './interfaces';
-import { Todo } from './components/todo';
+import { Todo } from './components/Todo';
 
 export default function App() {
   const [task, setTask] = useState<string>("");
